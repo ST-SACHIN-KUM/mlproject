@@ -36,4 +36,11 @@ def evaluate_models(models, X_train,y_train,X_test,y_test, params = None):
         result[name] = score
         fitted_models[name] = best_model
     return result,fitted_models
-    
+
+
+def load_object(file_path):
+    try:
+        with open(file_path,"rb") as file_obj:
+            return dill.load(file_obj)
+    except Exception as e:
+        raise CustomException(e,sys)
