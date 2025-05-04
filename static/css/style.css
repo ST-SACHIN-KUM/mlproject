@@ -1,0 +1,88 @@
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f6fc;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+/* Container for the form */
+.login {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    max-width: 450px;
+    width: 100%;
+}
+
+/* Main heading */
+.login h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+/* Smaller legend heading */
+.login legend {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Form labels */
+.form-label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: block;
+    color: #444;
+}
+
+/* Select and input fields */
+.form-control {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 20px;
+    border: 1.8px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+/* Focus effect on inputs and selects */
+.form-control:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Submit button styling */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 12px 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Prediction result styling */
+h2 {
+    margin-top: 30px;
+    text-align: center;
+    color: #222;
+    font-weight: 700;
+}
